@@ -2,33 +2,21 @@ import styles from "./styles.module.scss"
 import React from 'react'
 import Logo from '../Logo/'
 import Menu from '../Menu/'
-import PropTypes from 'prop-types'
+import MenuItem from '../MenuItem/'
 
-function Header(props) {
+function Header() {
   return (
     <div className={styles.container}>
-      <Logo />
-      <Menu />
+      <div className={styles.leftMenu}>
+        <Logo />
+        <h1>Hangman&nbsp;Game</h1>
+      </div>
+      <Menu>
+        <MenuItem><h1>Score</h1></MenuItem>
+        <MenuItem><h1>Reset</h1></MenuItem>
+      </Menu>
     </div>
   )
 }
 
-// Header.propTypes = {
-
-// }
-
-export default Header
-
-{/* <header className="App-header">
-<img src={logo} className="App-logo" alt="hangman-logo" />
-<p>
-  idam 10dk sonra baslayacaktir.
-</p>
-<a
-  className="App-link"
-  href="https://reactjs.org"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Test
-</a>  */}
+export default Header;
