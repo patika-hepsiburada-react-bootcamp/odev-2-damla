@@ -1,10 +1,11 @@
 // import PropTypes from 'prop-types'
 import React from 'react';
-
-function Home(props) {
+import styles from "./styles.module.scss"
+import Header from "../../components/Header"
+function Home() {
     return (
-        <div>
-            test
+        <div className={styles.container}>
+            <Header />
         </div>
     )
 }
