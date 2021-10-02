@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="hangman-logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          test
+          Test
         </a>
       </header>
     </div>
