@@ -9,7 +9,7 @@ function Header() {
     <div className={styles.container}>
       <div className={styles.leftMenu}>
         <Logo />
-        <h1>Hangman&nbsp;Game</h1>
+        <h1 className={styles.title}>Hangman&nbsp;Game</h1>
       </div>
       <Menu>
         <MenuItem><h1>Score</h1></MenuItem>
