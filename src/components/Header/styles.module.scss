@@ -1,0 +1,36 @@
+.container {
+  position: absolute;
+  width: 100%;
+  max-width:100%;
+  z-index: 3;
+  min-height: 5vh;
+  padding: 10px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: transparent;
+  
+
+  .leftMenu {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-basis: 33%;
+
+    .title {
+      margin-left: 1.5rem;
+      cursor: default;
+    }
+  }
+
+  .reset {
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(0, 110, 255);
+    }
+  }
+}
+

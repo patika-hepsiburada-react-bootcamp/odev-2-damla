@@ -6,9 +6,6 @@ function App() {
 
   useEffect(() => {
     (async () => console.log(await newGame()))()
-    return () => {
-
-    }
   }, [])
 
   return (

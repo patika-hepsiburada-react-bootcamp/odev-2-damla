@@ -1,0 +1,9 @@
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 33%;
+    flex-grow: 1;
+    height: 100%;
+    cursor: default;
+}
