@@ -13,7 +13,7 @@ function Header() {
       </div>
       <Menu>
         <MenuItem><h1>Score</h1></MenuItem>
-        <MenuItem><h1>Reset</h1></MenuItem>
+        <MenuItem><h1 className={styles.reset}>Reset</h1></MenuItem>
       </Menu>
     </div>
   )

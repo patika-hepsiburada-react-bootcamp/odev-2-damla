@@ -1,8 +1,9 @@
 import styles from './styles.module.scss'
 
-function Section() {
+function Section({ children }) {
     return (
         <div className={styles.container}>
+            {children}
         </div>
     )
 }

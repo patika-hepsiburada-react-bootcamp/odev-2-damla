@@ -1,0 +1,13 @@
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    border-bottom: 2px solid black;
+    width: 1.5rem;
+
+    .char {
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+}
