@@ -1,0 +1,20 @@
+.container {
+    height: 4vh;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    background-color: #204C52;
+    font-size: small;
+    color: #CBD1FF;
+
+    a:visited {
+        color: #CBD1FF;
+    }
+
+    a:hover {
+        color: #a4adf6;
+    }
+}
+
