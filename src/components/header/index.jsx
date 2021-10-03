@@ -1,8 +1,8 @@
 import styles from "./styles.module.scss"
 import React from 'react'
-import Logo from '../Logo/'
-import Menu from '../Menu/'
-import MenuItem from '../MenuItem/'
+import Logo from '../Logo'
+import Menu from '../Menu'
+import MenuItem from '../MenuItem'
 
 function Header() {
   return (
