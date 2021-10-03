@@ -1,18 +1,16 @@
-// import PropTypes from 'prop-types'
-import React from 'react';
 import styles from "./styles.module.scss"
 import Header from "../../components/Header"
+import Section from "../../components/Section"
+import Footer from "../../components/Footer"
+
 function Home() {
     return (
         <div className={styles.container}>
             <Header />
+            <Section />
+            <Footer />
         </div>
     )
 }
 
-// Home.propTypes = {
-
-// }
-
 export default Home;
-
